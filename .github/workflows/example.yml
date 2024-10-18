@@ -14,7 +14,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy matplotlib
       - name: Comments
-          echo "This is a very good code (No!)"
-
+        run:  echo "This is a very good code (No!)"
       - name: Run Code
         run: python main.py
