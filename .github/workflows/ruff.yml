@@ -18,3 +18,5 @@ jobs:
         run: ruff check --output-format=github .
       - name: Run Ruff Format check
         run: ruff format --check
+      - name: Run pytest
+        run: pytest 
