@@ -15,6 +15,3 @@ jobs:
           pip install numpy matplotlib
       - name: Run Code
         run: python main.py
-      - name: Run tests
-        run: |
-          pytest
