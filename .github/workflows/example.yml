@@ -13,5 +13,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install numpy matplotlib
+          pip install ruff 
+          pip install pytest
+      - name: Ruff
+        run: ruff format main_ref.py
+      - name: Unit Test
+        run: pytest test_main.py
+      - name: Comments
+        run:  echo "This is a very good code (No!)"
       - name: Run Code
         run: python main.py
