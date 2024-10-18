@@ -6,3 +6,6 @@ plt.scatter(data[:,0], data[:,1])
 plt.xlabel('x')
 plt.ylabel('y')
 plt.savefig("plot.png")
+
+
+assert False 
