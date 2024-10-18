@@ -18,4 +18,5 @@ plt.legend()
 plt.savefig("plot.png")
 
 # Simple test for the code
-assert len(data) > 0, "No data loaded"
+#assert len(data) > 0, "No data loaded"
+assert False
