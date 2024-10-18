@@ -16,7 +16,7 @@ jobs:
           pip install ruff 
           pip install pytest
       - name: Ruff
-        run: ruff formant main_ref.py
+        run: ruff format main_ref.py
       - name: Unit Test
         run: pytest test_main.py
       - name: Comments
