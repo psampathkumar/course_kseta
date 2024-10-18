@@ -5,5 +5,5 @@ plt.plot(np.arange(20), np.poly1d(np.polyfit(data[:,0], data[:,1], 1))(np.arange
 plt.scatter(data[:,0], data[:,1])
 plt.xlabel('x')
 plt.ylabel('y')
-plt.savefig("plot.png")
+plt.savefig("plot.png"
 print("Fortran bad")
